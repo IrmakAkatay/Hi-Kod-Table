@@ -1,0 +1,37 @@
+.container {
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: -150px;
+       
+} 
+
+body{
+    font-size: 20px; 
+    background: linear-gradient(45deg, #EC7063,#F4D03F); 
+}
+
+table {
+    text-align: left;
+    border-collapse: collapse;
+  }
+
+thead th{
+    background-color: #2E4053 ;
+    color: aliceblue;
+    text-align: center;
+}
+
+tbody td{
+    background-color:rgb(214, 206, 206, 0.2) ;
+}
+
+table td:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition-duration:0.4s;
+}
